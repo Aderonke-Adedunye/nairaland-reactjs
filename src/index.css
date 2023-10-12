@@ -1,0 +1,27 @@
+/*  topheader css */
+
+.home .card{
+    background-color: #F6F6EC;
+}
+
+.topheader img{
+    width: 40%;
+    height: 5rem;
+    object-fit: contain;
+    margin: auto;
+}
+
+
+
+
+/** bottom header */
+
+.bottomheader a{
+    margin: 0 0.3rem;
+    
+    
+}
+
+.bottomheader  .middle{
+    background-color: #E8ECE0;
+}
