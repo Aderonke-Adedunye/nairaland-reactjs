@@ -16,7 +16,7 @@ function Home() {
   
   useEffect(() =>{
 
-    axios.get("http://localhost:8000/getarticles/")
+    axios.get("https://aderonkeadedunye.pythonanywhere.com/getarticles/")
   .then((res) => setData(res.data))
   .catch((err) => console.log(err))
 

@@ -13,7 +13,7 @@ function Details() {
    
   useEffect(() =>{
 
-    axios.get(`http://localhost:8000/getarticle/${id}`)
+    axios.get(`https://aderonkeadedunye.pythonanywhere.com/getarticle/${id}`)
     .then((res) => setData(res.data))
     .catch((err) => console.log(err))
 
@@ -28,8 +28,8 @@ function Details() {
         <p  className="text-primary fs-italic" dangerouslySetInnerHTML={{
          __html: data?.description
         }} ></p>
-        <img src={`http://localhost:8000/${data?.image}`} alt={data?.title} />
-        <img src={`http://localhost:8000/${data?.other}`} alt={data?.title} />
+        <img src={`https://aderonkeadedunye.pythonanywhere.com/${data?.image}`} alt={data?.title} />
+        <img src={`https://aderonkeadedunye.pythonanywhere.com/${data?.other}`} alt={data?.title} />
        
     </div>
   )
